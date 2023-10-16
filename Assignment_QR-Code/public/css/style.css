@@ -1,0 +1,31 @@
+*{
+    background-color: #D5E1EF;
+}
+.custom{
+    --bs-card-border-color : #fff
+   
+}
+
+.custom{
+    --bs-card-border-width: 10px 
+    
+}
+
+.custom{
+    border-radius: 10px;
+}
+.card-title {
+   background-color: white;
+   text-align: center;
+   color: #2D3649;
+}
+
+.card-text{
+    background-color:white  ;
+    color: gray;
+    text-align: center;
+}
+
+.card-body{
+    background-color: white;
+}

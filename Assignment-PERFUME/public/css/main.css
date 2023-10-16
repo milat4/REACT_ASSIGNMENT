@@ -1,0 +1,133 @@
+body {
+    background-color: #F3EAE3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container {
+    width: 630px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 19vh;
+    display: flex;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.img-block img {
+    width: 338px;
+    height: 500px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.info-block {
+    
+    width: 300px;
+    padding-left: 30px;
+}
+
+
+.logo p {
+    letter-spacing: 5px;
+    color:  hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+.heading {
+    margin-top: 10px;
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #1C232B;
+}
+
+
+.text p {
+    font-size: 14px;
+    color:  #6C7289;
+    margin-top: 14px;
+    line-height: 23px;
+}
+.price {
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.green {
+    color: green;
+    font-size: 27px;
+    font-family: 'Fraunces', serif;
+}
+
+.crossed {
+    color:  hsl(228, 12%, 48%);
+    text-decoration:line-through;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+
+button {
+    width: 236px;
+    height: 48px;
+    padding: 15px 62px;
+    background-color:  hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    line-height: 17.07px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color:  rgb(6, 78, 6);
+    cursor: pointer;
+}
+
+.icon::before {
+    content: url(/img/icon-cart.svg);
+    margin-right: 10px;
+    
+}
+
+@media(max-width: 850px) {
+    .container {
+        flex-direction: column;
+        
+    }
+
+    .img-block img {
+        height: 250px;
+        object-fit: cover;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .info-block {
+        padding: 0;
+        margin-right: 12px;
+    }
+
+    .logo p {
+        margin-top: 24px;
+    }
+
+    .heading {
+        margin-top: 12px;
+       
+    }
+
+    .price {
+        justify-content: flex-start ;
+    }
+}
